@@ -1,0 +1,30 @@
+.h-10 {
+    height: 10%;
+}
+.msg-span {
+    height: 25px;
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+}
+ul#messsageWindow{
+    height: calc(393px - 50px);
+    overflow: auto;
+}
+li{
+    list-style-type: none;
+}
+.own {
+    text-align: right;
+}
+.other {
+    text-align: left;
+}
+.h-80 {
+    height: 80%;
+    min-height: 400px;
+    max-height: 400px;
+}
+.h-full {
+    height: -webkit-fill-available;
+}
